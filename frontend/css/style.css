@@ -1,0 +1,35 @@
+.wrapper{
+    text-align: center;
+}
+
+.button{
+    background-color: #0A3D62;
+    height: 50px;
+    width: 280px;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+p{
+    color: #2475B0;
+    font-weight: bold;
+}
+
+h1{
+    color: #1287A5;
+}
+
+h3{
+    color: #3498DB;
+}
+
+li{
+    color: #0A3D62;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 15px;
+}

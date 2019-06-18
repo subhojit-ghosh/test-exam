@@ -1,0 +1,16 @@
+<div class="wrapper">
+    <br><br><br>
+    <h1>Time Left : {{counter | secondsToDateTime | date:'H:mm:ss'}}</h1>
+
+    <h3>Q. {{question}}</h3>  <br>
+    <ul style="list-style-type:none;display: inline-flex;">
+        <li ng-repeat="x in op track by $index"><input type="radio" ng-model="$parent.option" name="option"
+                ng-value="x">{{x}}</li>
+    </ul><br><br>
+    <button class="button" ng-click="submitAnswer()">Submit</button>
+    <br><br><br>
+
+    <p>Total Answered: {{total_answered}}</p>
+    <p>Correct Answered: {{correct_answered}}</p>
+
+</div>
